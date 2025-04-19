@@ -1,0 +1,58 @@
+.eventscontainer{
+    display: flex;
+   
+}
+.accracontainer{
+    background-image: url('images/image copy 11.png');height:950px; width:33.3%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#accraevent{
+    color:cyan;
+    text-align: center;
+    padding: 200px;
+    padding-top: 400px;
+    font-size: 21px;
+}
+.nairobicontainer{
+    background-image: url('images/image copy 21.png'); width:33.3%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#nairobievent{
+    color: cyan;
+    text-align: center;
+    
+    padding-top: 400px;
+    font-size: 21px;
+}
+.zanzibarcontainer{
+    background-image: url('images/image copy 10.png'); width:33.3%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#zanzibarevent{
+    color: cyan;
+    text-align: center;
+    padding: 200px;
+    padding-top: 400px;
+    font-size: 21px;
+    overflow: scroll;
+}
+    
+.scroll ul{
+    display: flex;
+    list-style-type: none;
+    gap:2%;
+}
+.scroll{
+    position: absolute;
+    top:800px;
+    left: 400px;
+    background-color: black;width: 500px;
+    border-radius: 4px;
+    
+}
+.scroll a{
+    color: white;
+}

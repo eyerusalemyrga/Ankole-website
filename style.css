@@ -1,0 +1,343 @@
+
+body{
+    overflow: hidden;
+}
+.dashboard{
+    display: flex;
+    gap:9%;
+}
+.mySlides{
+    width: 100%;
+    display:none;
+}
+.firstslide{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+#facebook{
+    position: relative;
+    
+    top:23px;
+    left: 92%;
+    margin-top: -110px;
+}
+#camera{
+    position: relative;
+    
+    top:23px;
+    left: 92%;
+    margin-top: -110px;
+}
+.insideicon2{
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    border: 1px solid;
+    padding-left: 5px;
+    color: white;
+    border: 1px solid;
+    padding-left: 1px;
+    color: white;
+
+}
+.insideicon2 a{
+    
+    display:block;
+    bottom: 50px;
+   
+    
+
+}
+.insideicon1{
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    border: 1px solid;
+    padding-left: 5px;
+    color: white;
+    
+
+}
+
+.icon2{
+    position: relative;
+  display: inline-block;
+  border: 1px solid;
+    border-radius: 5px;
+    z-index: 1;
+    padding-left: 7px;
+    left: -12px;
+   
+   
+}
+.icon1{
+    position: relative;
+  display: inline-block;
+  
+   
+   
+}
+.insideicon1 a{
+    
+    display: block;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 10px;
+    z-index: 1;
+    
+}
+.icon2:hover .insideicon2{
+    display: block;
+}
+.icon1:hover .insideicon1{
+    display: block;
+}
+
+#whatsapp{
+    position: relative;
+    
+    top:850px;
+    left: 70%;
+    margin-top: -110px;
+    size:40px;
+    font-size: 5em;
+}
+.container.lists{
+    list-style-type: none;
+}
+
+
+.scroll ul{
+    display: flex;
+    gap:2%;
+    transform: translate(-5%,-5%);
+    width:145%;
+    margin-left: 12%;
+    margin-bottom: 1px;
+    opacity:1.0;
+    object-fit: contain;
+    width:145%;
+    z-index: 1;
+    background-color: black;
+    border-radius: 5em;
+    padding: 5%;
+    margin-bottom: 4%;
+    
+    list-style-type: none;
+}
+
+.scroll{
+    position:absolute;
+    top:85%;
+    left:20%;
+    border: none;
+    
+}
+
+.mySlides{
+    width: 100%;
+    height:100vh;
+}
+.scroll a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;}
+#img {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    max-width: 20%;max-height: 20%;
+
+}
+#image  img{
+    width: 200vh;
+    height: 100vh;
+}
+.welcome{
+    font-size: 150px;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+    top: 50%;
+
+}
+.reserve{
+    background-color: gray;
+    border-radius: 8px;
+}
+@media only screen and (min-width: 620px) {
+    img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    overflow: hidden;
+}
+.dashboard{
+    display: flex;
+}
+.mySlides{
+    width: 100%;
+    display: none;
+}
+.firstslide{
+    display: flex;
+}
+#facebook{
+    position: relative;
+    top: 18px;
+    left:95%;
+    margin-top:-100px ;
+}
+#camera{
+    position: relative;
+    top: 18px;
+    left:95%;
+    margin-top:-100px ;
+}
+.insideicon2{
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    border: 1px solid;
+    padding-left: 5px;
+    color: white;
+    border: 1px solid;
+    padding-left: 1px;
+    color: white;
+}
+.insideicon2 a{
+    
+    display:block;
+    bottom: 50px;
+   }
+   .icon2{
+    position: relative;
+  display: inline-block;
+  border: 1px solid;
+    border-radius: 5px;
+    z-index: 1;
+    padding-left: 7px;
+    left: -12px;
+   }
+   .insideicon1{
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    border: 1px solid;
+    padding-left: 5px;
+    color: white;
+    
+
+}
+.icon2{
+    position: relative;
+  display: inline-block;
+  border: 1px solid;
+    border-radius: 5px;
+    z-index: 1;
+    padding-left: 7px;
+    left: -12px;
+   
+   
+}
+.icon1{
+    position: relative;
+  display: inline-block;
+  
+   
+   
+}
+.insideicon1 a{
+    
+    display: block;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 10px;
+    z-index: 1;
+    
+}
+.icon2:hover .insideicon2{
+    display: block;
+}
+.icon1:hover .insideicon1{
+    display: block;
+}
+#whatsapp{
+    position: relative;
+    
+    top:850px;
+    left: 75%;
+    margin-top: -110px;
+    size:40px;
+    font-size: 5em;
+}
+.container.lists{
+    list-style-type: none;
+}
+.scroll ul{
+    display: flex;
+    gap:2%;
+    transform: translate(-5%,-5%);
+    width:145%;
+    margin-left: 12%;
+    margin-bottom: 1px;
+    opacity:1.0;
+    object-fit: contain;
+    width:145%;
+    z-index: 1;
+    background-color: black;
+    border-radius: 5em;
+    padding: 5%;
+    margin-bottom: 4%;
+    
+    list-style-type: none;
+}
+.scroll{
+    position:absolute;
+    top:85%;
+    left:20%;
+    border: none;
+    
+}
+.mySlides{
+    width: 100%;
+    height:100vh;
+}
+.scroll a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;}
+#img {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    max-width: 20%;max-height: 20%;
+
+}
+#image  img{
+    width: 200vh;
+    height: 100vh;
+}
+.welcome{
+    font-size: 150px;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+    top: 50%;
+
+}
+.reserve{
+    background-color: gray;
+    border-radius: 8px;
+}}

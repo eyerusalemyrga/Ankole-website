@@ -1,0 +1,88 @@
+#figure{
+    padding-left: 750px;
+    padding-top: 80px;
+}
+#comment{
+    padding-left: 860px;
+    font-size: 21px;
+    color: white;
+}
+.nextbar{
+    display: flex;
+    gap:2px;
+    color: white;
+}
+#previousround{
+    padding-left: 700px;
+}
+body{
+    background-color: black;
+}
+#secondtext{
+    padding-left: 120px;
+}
+.scroll ul{
+    display: flex;
+    list-style-type: none;
+    gap:2%;
+    font-size: 19px;
+    background-color:gray;
+    border-radius: 4px;
+    width:600px;
+    height: 40px;
+    border-color: white;
+    margin-left: 300px;
+    
+}
+.scroll{
+    position: absolute;
+    left:350px;
+}
+.scroll a{
+    color: white;
+}
+@media only screen and (min-width:620px){
+    #figure{
+        padding-left: 750px;
+        padding-top: 80px;
+    }
+    #comment{
+        padding-left: 860px;
+        font-size: 21px;
+        color: white;
+    }
+    .nextbar{
+        display: flex;
+        gap:2px;
+        color: white;
+    }
+    #previousround{
+        padding-left: 700px;
+    }
+    body{
+        background-color: black;
+    }
+    #secondtext{
+        padding-left: 120px;
+    }
+    .scroll ul{
+        display: flex;
+        list-style-type: none;
+        gap:2%;
+        font-size: 19px;
+        background-color:gray;
+        border-radius: 4px;
+        width:600px;
+        height: 40px;
+        border-color: white;
+        margin-left: 300px;
+        
+    }
+    .scroll{
+        position: absolute;
+        left:350px;
+    }
+    .scroll a{
+        color: white;
+    }
+}

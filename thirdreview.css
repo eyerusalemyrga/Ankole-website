@@ -1,0 +1,63 @@
+.nextbar{
+    display: flex;
+    font-size: 21px;
+}
+.reviews{
+    padding-left: 300px;
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+}
+#usercomment{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-size: cover;
+    height: 280px;
+}
+#comment{
+    padding-left: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+img{
+    padding-left: 200px;
+}
+.commentername{
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+@media only screen and (min-width:620px){
+.nextbar{
+    display: flex;
+    font-size: 21px;
+}
+.reviews{
+    padding-left: 300px;
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+}
+#usercomment{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-size: cover;
+    height: 280px;
+}
+#comment{
+    padding-left: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+img{
+    padding-left: 200px;
+}
+.commentername{
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankole website</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+              
+                  <div class="bigcontainer">
+                    
+                     <div class="scroll">
+                       <ul>
+                        <div class="icon1">
+                          <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                          <div class="insideicon1">
+                            <a href="">Home</a>
+                            <a href="">ourstory</a>
+                            <a href="">menu</a>
+                            <a href="">Reviews</a>
+                            <a href="">Careers</a>
+                            <a href="">events</a>
+                            <a href="">Gallery</a>
+                            <a href="">Live</a>
+                            <a href="">Contacts</a>
+                          </div>
+                        </div>
+                        <div class="icon2">
+                          <li><a href=""><i class="fa-solid fa-clock"></a></i></li>
+                          <div class="insideicon2">
+                            <p>Opening hours</p>
+                            <p>Kitisuru</p> 
+                            <p>mon-sun</p>
+                            <p>9:00am:11:00am</p> 
+                            <p>Kilimali</p> 
+                            <p>mon-sun</p>
+                            <p>7:30am:11:00pm</p> 
+                            
+                            
+                          </div>
+                        </div>
+                          
+                           
+                           <li><a href="index.html">Home</a></li> 
+                           <li><a href=" menu.html">Menu</a> </li>
+                           <li> <a href="reviews.html">Reviews</a></li> 
+                           <li> <a href="events.html">Events</a></li>
+                           <li><a href="live.html">Live</a></li>
+                           <li><a href="contacts.html">Contacts</a></li>
+                          <li class="reserve"><a href="reservations.html">Reservations</a></li>
+                    </ul>
+                      </div>
+                      
+
+                    </div>
+                    <i class="fa-brands fa-facebook" id="facebook"></i>
+                    <i class="fa-solid fa-camera" id="camera"></i>
+                    <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+
+                <div class="mySlides">
+                  <img src="images/image.png" style="width: 100%;">
+                  <div class="welcome">welcome</div>
+                  <img src="images/image copy 8.png" id="img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/image copy 3.png">
+                  <div class="welcome">discover</div>
+                  <img src="images/image copy 8.png" id="img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/image copy 4.png">
+                  <div class="welcome">experiance</div>
+                  <img src="images/image copy 8.png" id="img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/image copy.png">
+                  <div class="welcome">Taste</div>
+                  <img src="images/image copy 8.png" id="img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/image copy 2.png">
+                  <div class="welcome">Savour</div>
+                  <img src="images/image copy 8.png"id="img">
+                </div>
+                
+                
+                
+                
+              
+            
+              
+              <script>
+                var slideIndex = 0;
+                ankole();
+                
+                function ankole() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                  }
+                  slideIndex++;
+                  if (slideIndex > x.length) {slideIndex = 1} 
+                  x[slideIndex-1].style.display = "block"; 
+                  setTimeout(ankole, 2000); 
+                }
+                </script>
+                
+               
+    
+</body>
+</html>

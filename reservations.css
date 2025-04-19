@@ -1,0 +1,217 @@
+.reservationcontainer{
+    display: flex;
+   }
+#specificreservation{
+    padding-left: 250px;
+    font-size: 30px;
+    padding-top: 150px;
+    text-align: center;
+   
+}
+#textcontain{
+    padding-left: 250px;
+    font-size: 400px;
+    color:red;
+    font-size: 50px;
+    text-align: center;
+}
+#figure{
+    padding-left: 350px;
+}
+    
+.formofreservation{
+    border: 2px solid;
+    width:100%;
+    height: 930px;
+    background-color: black;
+    padding-left: 20px;
+    
+}
+#clickablebutton{
+    border:1px solid;
+    width:78%;
+    font-size: 21px;
+    height: 50px;
+    }
+.karibureservation{
+     background-image: url('images/image copy 20.png');
+     background-repeat: no-repeat;
+    width:100%;
+    filter: brightness(1.1);
+      background-size: 300% 900px;
+     padding-bottom: 100px;
+     background-color: black;
+}
+
+#date{
+    border:solid 1px;
+    width:700px;
+    height:70px;
+    background-color:black ;
+    color: white;
+}
+#name{
+    border:solid 1px;
+    width:700px;
+    height:70px;
+    margin-left: 4px;
+    background-color: black;
+    color: white;
+}
+#location{
+    border:solid 1px;
+    width:700px;
+    height:70px;
+    background-color: black;
+    color: white;
+}
+#email{
+    border:solid 1px;
+    width:700px;
+    height:70px;  
+    background-color: black;
+    color: white;
+}
+#tel{
+    border:solid 1px;
+    width:700px;
+    height:70px;  
+    background-color: black;
+    color: white; 
+}
+#guests{
+    border:solid 1px;
+    width:700px;
+    height:70px; 
+    background-color: black;
+    color: white;
+}
+#time{
+    border:solid 1px;
+    width:700px;
+    height:70px; 
+    background-color: black;
+    color: white;
+}
+#identification1{
+    color: white;
+}
+.scroll ul{
+    display: flex;
+    list-style-type: none;
+    gap:2%;
+    font-size: 19px;
+    background-color: black;
+    border-radius: 4px;
+    width:600px;
+    height: 40px;
+    
+}
+.scroll{
+    position: absolute;
+    left:350px;
+}
+.scroll a{
+    color: white;
+}
+@media only screen and(min-width:620px){
+    .reservationcontainer{
+        display: flex;
+       }
+    #specificreservation{
+        padding-left: 250px;
+        font-size: 30px;
+        padding-top: 150px;
+        text-align: center;
+       }
+       #textcontain{
+        padding-left: 250px;
+        font-size: 400px;
+        color:red;
+        font-size: 50px;
+        text-align: center;
+    }
+    #figure{
+        padding-left: 350px;
+    }
+    .formofreservation{
+        border: 2px solid;
+        width:100%;
+        height: 930px;
+        background-color: black;
+        padding-left: 20px;
+        
+    }
+    #clickablebutton{
+        border:1px solid;
+        width:78%;
+        font-size: 21px;
+        height: 50px;
+        }
+        .karibureservation{
+            background-image: url('images/image copy 20.png');
+            background-repeat: no-repeat;
+           width:100%;
+           filter: brightness(1.1);
+             background-size: 300% 900px;
+            padding-bottom: 100px;
+            background-color: black;
+       }
+       #date{
+        border:solid 1px;
+        width:700px;
+        height:70px;
+        background-color:black ;
+        color: white;
+    }
+    #name{
+        border:solid 1px;
+        width:700px;
+        height:70px;
+        margin-left: 4px;
+        background-color: black;
+        color: white;
+    }
+    #location{
+        border:solid 1px;
+        width:700px;
+        height:70px;
+        background-color: black;
+        color: white;
+    }
+    #email{
+        border:solid 1px;
+        width:700px;
+        height:70px;  
+        background-color: black;
+        color: white;
+    }
+    #tel{
+        border:solid 1px;
+        width:700px;
+        height:70px;  
+        background-color: black;
+        color: white; 
+    }
+    #identification1{
+        color: white;
+    }
+    .scroll ul{
+        display: flex;
+        list-style-type: none;
+        gap:2%;
+        font-size: 19px;
+        background-color: black;
+        border-radius: 4px;
+        width:600px;
+        height: 40px;
+        
+    }
+    .scroll{
+        position: absolute;
+        left:350px;
+    }
+    .scroll a{
+        color: white;
+    }    
+}
